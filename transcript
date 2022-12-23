@@ -1,0 +1,151 @@
+# Loading project Configure_Uart
+# Compile of ALU.sv was successful.
+# Compile of Branch.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of csr_regfile.sv was successful.
+# Compile of Data_memory.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of Immediate_generator.sv was successful.
+# Compile of instruction_memory.sv was successful.
+# Compile of Ld_St_unit.sv was successful.
+# Compile of mux.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of RISC_V.sv was successful.
+# Compile of RISC_V_tb.sv was successful.
+# Compile of UART.sv was successful.
+# 14 compiles, 0 failed with no errors.
+vsim work.RISC_V_tb
+# vsim work.RISC_V_tb 
+# Start time: 14:39:15 on Dec 23,2022
+# Loading sv_std.std
+# Loading work.RISC_V_tb
+# Loading work.RISC_V
+# Loading work.ALU
+# Loading work.controller
+# Loading work.Data_memory
+# Loading work.instruction_memory
+# Loading work.register_file
+# Loading work.mux_I
+# Loading work.load_store_Unit
+# Loading work.Ld_St_unit
+# Loading work.LD_Sizing
+# Loading work.ST_Sizing
+# Loading work.mux_LS
+# Loading work.Branch_Mux
+# Loading work.Branch_taken
+# Loading work.Branch
+# Loading work.mux_forA
+# Loading work.mux_forB
+# Loading work.Hazard_Unit
+# Loading work.Imm_Generator
+# Loading work.CSR_Regfile
+# Loading work.UART
+# Loading work.controller_UART
+# Loading work.mux
+# Loading work.shift_reg
+# Loading work.Baud_Counter
+# Loading work.Bit_Counter
+# WARNING: No extended dataflow license exists
+add wave -r /*
+run -all
+# ** Note: $stop    : /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V_tb.sv(27)
+#    Time: 575 ps  Iteration: 1  Instance: /RISC_V_tb
+# Break in Module RISC_V_tb at /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V_tb.sv line 27
+# Compile of ALU.sv was successful.
+# Compile of Branch.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of csr_regfile.sv was successful.
+# Compile of Data_memory.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of Immediate_generator.sv was successful.
+# Compile of instruction_memory.sv was successful.
+# Compile of Ld_St_unit.sv was successful.
+# Compile of mux.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of RISC_V.sv was successful.
+# Compile of RISC_V_tb.sv was successful.
+# Compile of UART.sv was successful.
+# 14 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.RISC_V_tb
+# Loading work.RISC_V
+# Loading work.ALU
+# Loading work.controller
+# Loading work.Data_memory
+# Loading work.instruction_memory
+# Loading work.register_file
+# Loading work.mux_I
+# Loading work.load_store_Unit
+# Loading work.Ld_St_unit
+# Loading work.LD_Sizing
+# Loading work.ST_Sizing
+# Loading work.mux_LS
+# Loading work.Branch_Mux
+# Loading work.Branch_taken
+# Loading work.Branch
+# Loading work.mux_forA
+# Loading work.mux_forB
+# Loading work.Hazard_Unit
+# Loading work.Imm_Generator
+# Loading work.CSR_Regfile
+# Loading work.UART
+# Loading work.controller_UART
+# Loading work.mux
+# Loading work.shift_reg
+# Loading work.Baud_Counter
+# Loading work.Bit_Counter
+add wave -r /*
+run -all
+# ** Note: $stop    : /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V_tb.sv(27)
+#    Time: 575 ps  Iteration: 1  Instance: /RISC_V_tb
+# Break in Module RISC_V_tb at /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V_tb.sv line 27
+# Compile of ALU.sv was successful.
+# Compile of Branch.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of csr_regfile.sv was successful.
+# Compile of Data_memory.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of Immediate_generator.sv was successful.
+# Compile of instruction_memory.sv was successful.
+# Compile of Ld_St_unit.sv was successful.
+# Compile of mux.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of RISC_V.sv was successful.
+# Compile of RISC_V_tb.sv was successful.
+# Compile of UART.sv was successful.
+# 14 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.RISC_V_tb
+# Loading work.RISC_V
+# Loading work.ALU
+# Loading work.controller
+# Loading work.Data_memory
+# Loading work.instruction_memory
+# Loading work.register_file
+# Loading work.mux_I
+# Loading work.load_store_Unit
+# Loading work.Ld_St_unit
+# Loading work.LD_Sizing
+# Loading work.ST_Sizing
+# Loading work.mux_LS
+# Loading work.Branch_Mux
+# Loading work.Branch_taken
+# Loading work.Branch
+# Loading work.mux_forA
+# Loading work.mux_forB
+# Loading work.Hazard_Unit
+# Loading work.Imm_Generator
+# Loading work.CSR_Regfile
+# Loading work.UART
+# Loading work.controller_UART
+# Loading work.mux
+# Loading work.shift_reg
+# Loading work.Baud_Counter
+# Loading work.Bit_Counter
+add wave -r /*
+run -all
+# ** Note: $stop    : /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V_tb.sv(27)
+#    Time: 2015 ps  Iteration: 1  Instance: /RISC_V_tb
+# Break in Module RISC_V_tb at /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V_tb.sv line 27

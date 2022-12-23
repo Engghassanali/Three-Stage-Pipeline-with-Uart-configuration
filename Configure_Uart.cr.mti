@@ -1,0 +1,113 @@
+{/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Branch.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Branch.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Branch
+
+Top level modules:
+	Branch
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/UART.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/UART.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UART
+-- Compiling module mux
+-- Compiling module shift_reg
+-- Compiling module Baud_Counter
+-- Compiling module Bit_Counter
+-- Compiling module controller_UART
+
+Top level modules:
+	UART
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/controller.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/controller.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Ld_St_unit.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Ld_St_unit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Ld_St_unit
+-- Compiling module load_store_Unit
+-- Compiling module LD_Sizing
+-- Compiling module ST_Sizing
+
+Top level modules:
+	Ld_St_unit
+	load_store_Unit
+	LD_Sizing
+	ST_Sizing
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Immediate_generator.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Immediate_generator.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Imm_Generator
+
+Top level modules:
+	Imm_Generator
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RISC_V
+
+Top level modules:
+	RISC_V
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/hazard_unit.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/hazard_unit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Hazard_Unit
+
+Top level modules:
+	Hazard_Unit
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Data_memory.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Data_memory.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Data_memory
+
+Top level modules:
+	Data_memory
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ALU.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ALU.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/instruction_memory.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/instruction_memory.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module instruction_memory
+
+Top level modules:
+	instruction_memory
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_I
+-- Compiling module mux_LS
+-- Compiling module Branch_Mux
+-- Compiling module Branch_taken
+-- Compiling module mux_forA
+-- Compiling module mux_forB
+
+Top level modules:
+	mux_I
+	mux_LS
+	Branch_Mux
+	Branch_taken
+	mux_forA
+	mux_forB
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/register_file.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/register_file.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/csr_regfile.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/csr_regfile.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CSR_Regfile
+
+Top level modules:
+	CSR_Regfile
+
+} {} {}}
