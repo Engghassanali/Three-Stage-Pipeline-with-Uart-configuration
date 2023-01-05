@@ -6,7 +6,7 @@ module Data_memory(addrL_LSU,addrS_LSU,store,data_rd,wr_E,clk_o,cs_E,mask,Data_M
 
     logic [31:0] data_mem[0:255];
     initial begin
-        $readmemb("Data_memory.txt",data_mem);
+        $readmemb("Data_memory.mem",data_mem);
     end
     
     always_comb begin//ff @( posedge clk_o  or negedge reset) begin

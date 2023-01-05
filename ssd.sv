@@ -16,7 +16,9 @@ module ssd #(
     logic        clk_seg;
     logic [2:0]  seg_count;
     logic [3:0]  data;
-	
+    logic intrrupt;
+    logic [31:0] out;
+	RISC_V RV(clk,reset,intrrupt,out);
     always_ff @ (posedge clk) begin
         if (reset) begin
             timer1 <= '0;

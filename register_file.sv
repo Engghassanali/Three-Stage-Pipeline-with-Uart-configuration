@@ -7,7 +7,7 @@ module register_file(raddr1,raddr2,waddr,wdata,rdata1,rdata2,clk_o,reg_wr_E);
     logic [31:0] register_memory[0:31];
 
     initial begin
-        $readmemb("main.txt",register_memory);
+        $readmemb("main.mem",register_memory);
     end 
 
     always_ff @( negedge clk_o ) begin 

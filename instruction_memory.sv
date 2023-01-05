@@ -4,7 +4,7 @@ module instruction_memory (Addr,instruction);
     logic [31:0] inst_mem [0:127];
 
     initial begin 
-        $readmemh("machine_code.txt", inst_mem);
+        $readmemh("machine_code.mem", inst_mem);
     end
 
     always_comb begin 

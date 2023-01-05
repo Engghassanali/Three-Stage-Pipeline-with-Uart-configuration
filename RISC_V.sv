@@ -62,21 +62,21 @@ module RISC_V (clk,reset,intrrupt,out);
     end
 
     always_comb begin
-        assign out = (Uart_on) ? Tx : wdata;
-        assign raddr1    = IR_D[19:15];
-        assign raddr2    = IR_D[24:20];
-        assign waddr     = IR_E[11:7] ;
-        assign opcode    = IR_D[6:0]  ;
-        assign fun3      = IR_D[14:12];
-        assign fun7      = IR_D[31:25];
-        assign Addr      = PC[31:2];     
-        assign addrL     = (IR_E[6:0] == 7'b0000011) ? Alu_out_E : 0;
-        assign addrS     = (IR_E[6:0] == 7'b0100011) ? Alu_out_E : 0;
-        assign addr_dm   = addrS[1:0];
-        assign csr_PC    = PC_E;
-        assign csr_wdata = csr_data;
-        assign csr_inaddr= csr_addr;
-        assign csr_mcause_ff = 1;
+         out = (Uart_on) ? Tx : wdata;
+         raddr1    = IR_D[19:15];
+         raddr2    = IR_D[24:20];
+         waddr     = IR_E[11:7] ;
+         opcode    = IR_D[6:0]  ;
+         fun3      = IR_D[14:12];
+         fun7      = IR_D[31:25];
+         Addr      = PC[31:2];     
+         addrL     = (IR_E[6:0] == 7'b0000011) ? Alu_out_E : 0;
+         addrS     = (IR_E[6:0] == 7'b0100011) ? Alu_out_E : 0;
+         addr_dm   = addrS[1:0];
+         csr_PC    = PC_E;
+         csr_wdata = csr_data;
+         csr_inaddr= csr_addr;
+         csr_mcause_ff = 1;
     end
 
 
@@ -101,6 +101,6 @@ module RISC_V (clk,reset,intrrupt,out);
     CSR_Regfile csr_RF(csr_PC,csr_wdata,intrrupt,csr_inaddr,csr_rdata,epc,clk_o,csr_reg_wrMW,csr_reg_rdMW,reset,Flush_I,csr_mcause_ff,IR_E);
     UART Uart_w_P(t_byte_i,byte_ready_i,Tx,data_in,clk_o,reset,Uart_on);
     // seven_seg SS(cathode,anode,out,clk_o,reset);
-    ssd sd( clk, reset,out,anode,display);
+    // ssd sd( clk, reset,out,anode,display);
     clock_div CD(clk,reset,clk_o);
 endmodule
