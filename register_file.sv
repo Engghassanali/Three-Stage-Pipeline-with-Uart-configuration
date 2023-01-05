@@ -24,8 +24,8 @@ module register_file(raddr1,raddr2,waddr,wdata,rdata1,rdata2,clk_o,reg_wr_E);
     always_comb begin
         if (reg_wr_E)begin
             begin 
-                assign rdata1 = (|raddr1)? register_memory[raddr1]:32'b0;
-                assign rdata2 = (|raddr2)? register_memory[raddr2]:32'b0;  
+                rdata1 = (|raddr1)? register_memory[raddr1]:32'b0;
+                rdata2 = (|raddr2)? register_memory[raddr2]:32'b0;  
                 
             end
         end

@@ -8,7 +8,7 @@ module instruction_memory (Addr,instruction);
     end
 
     always_comb begin 
-        assign instruction = inst_mem[Addr];
+        instruction = inst_mem[Addr];
     end
     
 endmodule

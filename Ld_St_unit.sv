@@ -39,7 +39,7 @@ module load_store_Unit (addrL,addrS, addrL_LSU,addrS_LSU, opcode_E,Data_Memory_o
         addrS_LSU      = 0;
         byte_ready_i   = 0;
         // t_byte_i       = 0;
-        assign addrL_LSU = (opcode_E == 7'b0000011) ? addrL : 0;
+        addrL_LSU = (opcode_E == 7'b0000011) ? addrL : 0;
         if (opcode_E == 7'b0100011)begin
             casex (addrS[31:12])
                 20'd0:begin Data_Memory_on = 1;  addrS_LSU = addrS;end 
