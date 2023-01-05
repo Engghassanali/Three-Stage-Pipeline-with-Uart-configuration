@@ -1,8 +1,8 @@
-module register_file(raddr1,raddr2,waddr,wdata,rdata1,rdata2,clk,reg_wr_E);
+module register_file(raddr1,raddr2,waddr,wdata,rdata1,rdata2,clk_o,reg_wr_E);
     input logic[4:0] raddr1,raddr2,waddr;
     input logic[31:0] wdata;
     output logic[31:0]rdata1,rdata2;
-    input logic reg_wr_E,clk;
+    input logic reg_wr_E,clk_o;
 
     logic [31:0] register_memory[0:31];
 
@@ -10,7 +10,7 @@ module register_file(raddr1,raddr2,waddr,wdata,rdata1,rdata2,clk,reg_wr_E);
         $readmemb("main.txt",register_memory);
     end 
 
-    always_ff @( negedge clk ) begin 
+    always_ff @( negedge clk_o ) begin 
         if (reg_wr_E)begin
             if (|waddr)begin
                 register_memory[waddr] <= wdata;

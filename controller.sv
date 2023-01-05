@@ -1,5 +1,5 @@
-module controller(reset,alu_op,reg_wr,opcode,sel_B,wb_sel,cs,wr,sel_A,reg_wr_E,wr_E,cs_E ,wb_sel_E,clk,csr_reg_wr,csr_reg_rd,csr_reg_wrMW,csr_reg_rdMW);
-    input logic reset,clk;
+module controller(reset,alu_op,reg_wr,opcode,sel_B,wb_sel,cs,wr,sel_A,reg_wr_E,wr_E,cs_E ,wb_sel_E,clk_o,csr_reg_wr,csr_reg_rd,csr_reg_wrMW,csr_reg_rdMW);
+    input logic reset,clk_o;
     input logic[6:0] opcode;
     output logic alu_op,reg_wr,reg_wr_E,sel_B,cs,cs_E,wr,wr_E,sel_A,csr_reg_wr,csr_reg_rd,csr_reg_wrMW,csr_reg_rdMW;
     output logic[1:0]wb_sel,wb_sel_E;
@@ -30,7 +30,7 @@ module controller(reset,alu_op,reg_wr,opcode,sel_B,wb_sel,cs,wr,sel_A,reg_wr_E,w
         end
            
     end
-    always_ff @( posedge clk ) begin 
+    always_ff @( posedge clk_o ) begin 
         reg_wr_E     <= reg_wr;
         wr_E         <= wr;
         cs_E         <= cs;

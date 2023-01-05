@@ -1,6 +1,6 @@
-module CSR_Regfile(csr_PC,csr_wdata,intrrupt,csr_inaddr,csr_rdata,epc,clk,csr_reg_wrMW,csr_reg_rdMW,reset,Flush_I,csr_mcause_ff,IR_E);
+module CSR_Regfile(csr_PC,csr_wdata,intrrupt,csr_inaddr,csr_rdata,epc,clk_o,csr_reg_wrMW,csr_reg_rdMW,reset,Flush_I,csr_mcause_ff,IR_E);
     input logic[31:0] csr_PC,csr_wdata,csr_inaddr,csr_mcause_ff,IR_E;
-    input logic intrrupt,clk,reset,csr_reg_wrMW,csr_reg_rdMW;
+    input logic intrrupt,clk_o,reset,csr_reg_wrMW,csr_reg_rdMW;
     output logic [31:0]csr_rdata, epc;
     output logic Flush_I;
     logic[31:0] csr_mstatus_ff,csr_mip_ff,csr_mie_ff,csr_mepc_ff,csr_mtvec_ff,BASE;
@@ -71,7 +71,7 @@ module CSR_Regfile(csr_PC,csr_wdata,intrrupt,csr_inaddr,csr_rdata,epc,clk,csr_re
             endcase
         end 
     end
-    always_ff @( negedge clk, negedge reset ) begin
+    always_ff @( negedge clk_o, negedge reset ) begin
         if (reset)begin
             csr_mstatus_ff <= 0;
             // csr_mip_ff     <= 0;

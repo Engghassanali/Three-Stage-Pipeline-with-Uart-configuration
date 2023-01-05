@@ -1,9 +1,23 @@
-{/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Branch.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Branch.sv}
+{/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/clock_div.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/clock_div.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module clock_div
+
+Top level modules:
+	clock_div
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Branch.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Branch.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Branch
 
 Top level modules:
 	Branch
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/controller.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/controller.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
 
 } {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/UART.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/UART.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -16,13 +30,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	UART
-
-} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/controller.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/controller.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module controller
-
-Top level modules:
-	controller
 
 } {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Ld_St_unit.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Ld_St_unit.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -44,13 +51,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Imm_Generator
 
-} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module RISC_V
-
-Top level modules:
-	RISC_V
-
 } {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/hazard_unit.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/hazard_unit.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Hazard_Unit
@@ -58,26 +58,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Hazard_Unit
 
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ssd.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ssd.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ssd
+
+Top level modules:
+	ssd
+
 } {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Data_memory.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Data_memory.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Data_memory
 
 Top level modules:
 	Data_memory
-
-} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ALU.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ALU.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ALU
-
-Top level modules:
-	ALU
-
-} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/instruction_memory.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/instruction_memory.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module instruction_memory
-
-Top level modules:
-	instruction_memory
 
 } {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -95,6 +88,27 @@ Top level modules:
 	Branch_taken
 	mux_forA
 	mux_forB
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/instruction_memory.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/instruction_memory.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module instruction_memory
+
+Top level modules:
+	instruction_memory
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ALU.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ALU.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V_tb.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RISC_V_tb
+
+Top level modules:
+	RISC_V_tb
 
 } {} {}} {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/register_file.sv} {1 {vlog -work work -sv -stats=none {/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/register_file.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

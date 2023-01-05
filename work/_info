@@ -11,724 +11,924 @@ cModel Technology
 d/media/hassan/New Volume/Semester 7/CA Lab/Lab 9b
 vALU
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1671788723
+Z1 !s110 1672901066
 !i10b 1
 !s100 T3nB8@SeG?R>n06I;j8H52
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IhnhAOALC4=?]Qh4O?Vz763
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
-Z3 d/media/hassan/New Volume/Semester 7/CA Lab/Lab 10
+Z4 d/media/hassan/New Volume/Semester 7/CA Lab/Lab 10
 w1669776739
 8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ALU.sv
 F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ALU.sv
-!i122 1203
+!i122 1466
 L0 1 87
-Z4 OV;L;2020.1;71
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1671788722.000000
+Z6 !s108 1672901066.000000
 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ALU.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ALU.sv|
 !i113 1
-Z5 o-work work -sv
-Z6 tCvgOpt 0
+Z7 o-work work -sv
+Z8 tCvgOpt 0
 n@a@l@u
 vBaud_Counter
 R0
-Z7 !s110 1671788741
+Z9 !s110 1672901070
 !i10b 1
 !s100 cSiBaQ1^LJ7LTDojFz6N42
-R1
-I@zhhEDA3k9l_MQA5eE:[j3
 R2
-S1
+I@zhhEDA3k9l_MQA5eE:[j3
 R3
-Z8 w1671774068
-Z9 8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/UART.sv
-Z10 F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/UART.sv
-!i122 1216
-L0 60 17
+S1
 R4
+Z10 w1671774068
+Z11 8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/UART.sv
+Z12 F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/UART.sv
+!i122 1479
+L0 60 17
+R5
 r1
 !s85 0
 31
-Z11 !s108 1671788740.000000
-Z12 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/UART.sv|
-Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/UART.sv|
+Z13 !s108 1672901069.000000
+Z14 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/UART.sv|
+Z15 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/UART.sv|
 !i113 1
-R5
-R6
+R7
+R8
 n@baud_@counter
 vBit_Counter
 R0
-R7
+R9
 !i10b 1
 !s100 g8i?]l@oDGDnkYddTRibL3
-R1
-I_e7N^?jndeVj^XN5Y0l]E2
 R2
-S1
+I_e7N^?jndeVj^XN5Y0l]E2
 R3
-R8
-R9
-R10
-!i122 1216
-L0 77 17
+S1
 R4
+R10
+R11
+R12
+!i122 1479
+L0 77 17
+R5
 r1
 !s85 0
 31
-R11
-R12
 R13
+R14
+R15
 !i113 1
-R5
-R6
+R7
+R8
 n@bit_@counter
 vBranch
 R0
-!s110 1671788724
+R1
 !i10b 1
 !s100 C`RPXi4FfQD]dITSQI;7<3
-R1
-InPDFAjMESGfPRmZ[5M1C[0
 R2
-S1
+InPDFAjMESGfPRmZ[5M1C[0
 R3
+S1
+R4
 w1670911259
 8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Branch.sv
 F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Branch.sv
-!i122 1204
-Z14 L0 1 39
-R4
+!i122 1467
+Z16 L0 1 39
+R5
 r1
 !s85 0
 31
-!s108 1671788723.000000
+R6
 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Branch.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Branch.sv|
 !i113 1
-R5
-R6
+R7
+R8
 n@branch
 vBranch_Mux
 R0
-Z15 !s110 1671788736
+Z17 !s110 1672901068
 !i10b 1
 !s100 42TEeb93KPH:KUkMP5dU23
-R1
-I=g>_WBz`EXm02j_@:Vk5`3
 R2
-S1
+I=g>_WBz`EXm02j_@:Vk5`3
 R3
-Z16 w1671209255
-Z17 8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux.sv
-Z18 F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux.sv
-!i122 1212
-L0 29 12
+S1
 R4
+Z18 w1671209255
+Z19 8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux.sv
+Z20 F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux.sv
+!i122 1475
+L0 29 12
+R5
 r1
 !s85 0
 31
-Z19 !s108 1671788735.000000
-Z20 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux.sv|
-Z21 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux.sv|
+Z21 !s108 1672901068.000000
+Z22 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux.sv|
+Z23 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux.sv|
 !i113 1
-R5
-R6
+R7
+R8
 n@branch_@mux
 vBranch_taken
 R0
-R15
+R17
 !i10b 1
 !s100 ILP_PezPKPK==UM8c[:HG2
-R1
-IAmE2Z[SgYV0APd96I`a?91
 R2
-S1
+IAmE2Z[SgYV0APd96I`a?91
 R3
-R16
-R17
-R18
-!i122 1212
-L0 42 13
+S1
 R4
-r1
-!s85 0
-31
+R18
 R19
 R20
-R21
-!i113 1
+!i122 1475
+L0 42 13
 R5
-R6
-n@branch_taken
-vcontroller
-R0
-!s110 1671788726
-!i10b 1
-!s100 Q8EEm7RJn39;gko^_9fAh0
-R1
-IZI;@Magig<o:2nUD1fK=n2
-R2
-S1
-R3
-w1670897050
-8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/controller.sv
-F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/controller.sv
-!i122 1205
-L0 1 42
-R4
 r1
 !s85 0
 31
-!s108 1671788725.000000
+R21
+R22
+R23
+!i113 1
+R7
+R8
+n@branch_taken
+vclock_div
+R0
+R9
+!i10b 1
+!s100 030A]m6KfIX@iUoVokQ3S1
+R2
+IibUTW7Zb7@7KD[NWPfQ2;0
+R3
+S1
+R4
+w1672899636
+8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/clock_div.sv
+F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/clock_div.sv
+!i122 1480
+L0 2 26
+R5
+r1
+!s85 0
+31
+Z24 !s108 1672901070.000000
+!s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/clock_div.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/clock_div.sv|
+!i113 1
+R7
+R8
+vcontroller
+R0
+Z25 !s110 1672901067
+!i10b 1
+!s100 mLk]k=LK`:I_HQm_m<T8J3
+R2
+ITWdOfMcfBck2[5WVj<XW62
+R3
+S1
+R4
+w1672900116
+8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/controller.sv
+F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/controller.sv
+!i122 1468
+L0 1 42
+R5
+r1
+!s85 0
+31
+R6
 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/controller.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/controller.sv|
 !i113 1
-R5
-R6
+R7
+R8
 vcontroller_UART
 R0
-R7
+R9
 !i10b 1
 !s100 T=gYEC6`z:a3=R=YgWZfX1
-R1
-I?<A3]37lJlSNmK?^zI^NC1
 R2
-S1
+I?<A3]37lJlSNmK?^zI^NC1
 R3
-R8
-R9
-R10
-!i122 1216
-L0 97 64
+S1
 R4
+R10
+R11
+R12
+!i122 1479
+L0 97 64
+R5
 r1
 !s85 0
 31
-R11
-R12
 R13
+R14
+R15
 !i113 1
-R5
-R6
+R7
+R8
 ncontroller_@u@a@r@t
 vCSR_Regfile
 R0
-!s110 1671788727
+R25
 !i10b 1
-!s100 L`J<@[VJ<<0NLOS<X26LZ1
-R1
-ITMH_I=imVK_6B27;Ii?ik3
+!s100 99]6SSflPV[BXNH[4ai]11
 R2
-S1
+Ih6hX7QRUAaF46d1f12Z0O1
 R3
-w1671212771
+S1
+R4
+w1672900249
 8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/csr_regfile.sv
 F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/csr_regfile.sv
-!i122 1206
+!i122 1469
 L0 1 105
-R4
+R5
 r1
 !s85 0
 31
-!s108 1671788726.000000
+Z26 !s108 1672901067.000000
 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/csr_regfile.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/csr_regfile.sv|
 !i113 1
-R5
-R6
+R7
+R8
 n@c@s@r_@regfile
 vData_memory
 R0
-!s110 1671788728
+R25
 !i10b 1
-!s100 NW`jdc6idmRj4DT[of6SV2
-R1
-I@]hZ2D534:2hI6K?o7kkD3
+!s100 @K]YSzmho]WSaX@91oW:@2
 R2
-S1
+IdA`n=WkL[`Y4<1bIe[fX:2
 R3
-w1671254295
+S1
+R4
+w1672900253
 8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Data_memory.sv
 F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Data_memory.sv
-!i122 1207
-Z22 L0 1 33
-R4
+!i122 1470
+Z27 L0 1 33
+R5
 r1
 !s85 0
 31
-!s108 1671788727.000000
+R26
 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Data_memory.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Data_memory.sv|
 !i113 1
-R5
-R6
+R7
+R8
 n@data_memory
+vfreq_div
+R0
+Z28 !s110 1672896989
+!i10b 1
+!s100 4h3N]2E_@k^b2Qn4RLKfi1
+R2
+I7Obc[FEKRRK2][31Dzj6k2
+R3
+S1
+R4
+w1672822098
+8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/freq_div.sv
+F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/freq_div.sv
+!i122 1428
+L0 1 11
+R5
+r1
+!s85 0
+31
+!s108 1672896988.000000
+!s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/freq_div.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/freq_div.sv|
+!i113 1
+R7
+R8
 vHazard_Unit
 R0
-!s110 1671788730
+R25
 !i10b 1
 !s100 X6zBB?4Yeo=kAUG40BJW]2
-R1
-IiU;SHaVLZm5c0iZROlo8^2
 R2
-S1
+IiU;SHaVLZm5c0iZROlo8^2
 R3
+S1
+R4
 w1671264173
 8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/hazard_unit.sv
 F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/hazard_unit.sv
-!i122 1208
-R14
-R4
+!i122 1471
+R16
+R5
 r1
 !s85 0
 31
-!s108 1671788728.000000
+R26
 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/hazard_unit.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/hazard_unit.sv|
 !i113 1
-R5
-R6
+R7
+R8
 n@hazard_@unit
 vImm_Generator
 R0
-!s110 1671788732
+R17
 !i10b 1
 !s100 caVZ;3m4MBD9GF=R7T5Lz3
-R1
-IINUB15:8B;3_l_;6:KN:53
 R2
-S1
+IINUB15:8B;3_l_;6:KN:53
 R3
+S1
+R4
 w1669799810
 8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Immediate_generator.sv
 F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Immediate_generator.sv
-!i122 1209
-L0 1 21
-R4
+!i122 1472
+Z29 L0 1 21
+R5
 r1
 !s85 0
 31
-!s108 1671788730.000000
+R26
 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Immediate_generator.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Immediate_generator.sv|
 !i113 1
-R5
-R6
+R7
+R8
 n@imm_@generator
 vinstruction_memory
 R0
-!s110 1671788733
+R17
 !i10b 1
 !s100 XTo^J88XYAWAl]9=zj6_h3
-R1
-I^n:I1ZU2lQL4LK`YZniPF0
 R2
-S1
+I^n:I1ZU2lQL4LK`YZniPF0
 R3
+S1
+R4
 w1668860197
 8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/instruction_memory.sv
 F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/instruction_memory.sv
-!i122 1210
+!i122 1473
 L0 1 14
-R4
+R5
 r1
 !s85 0
 31
-!s108 1671788732.000000
+R21
 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/instruction_memory.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/instruction_memory.sv|
 !i113 1
-R5
-R6
+R7
+R8
 vLD_Sizing
 R0
-Z23 !s110 1671788735
+R17
 !i10b 1
 !s100 PlY4J7H9=S4oBA5^F:3>32
-R1
-IUQoSV2NFQ^2n:O=hMZ]_30
 R2
-S1
+IUQoSV2NFQ^2n:O=hMZ]_30
 R3
-Z24 w1671773556
-Z25 8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Ld_St_unit.sv
-Z26 F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Ld_St_unit.sv
-!i122 1211
-L0 52 19
+S1
 R4
+Z30 w1671773556
+Z31 8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Ld_St_unit.sv
+Z32 F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Ld_St_unit.sv
+!i122 1474
+L0 52 19
+R5
 r1
 !s85 0
 31
-Z27 !s108 1671788733.000000
-Z28 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Ld_St_unit.sv|
-Z29 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Ld_St_unit.sv|
+R21
+Z33 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Ld_St_unit.sv|
+Z34 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/Ld_St_unit.sv|
 !i113 1
-R5
-R6
+R7
+R8
 n@l@d_@sizing
 vLd_St_unit
 R0
-R23
+R17
 !i10b 1
 !s100 A2:7Rm8HXFAAB:B3LgZn^2
-R1
-IYc6;U^6@9=m_@<fZ=Gl8X2
 R2
-S1
+IYc6;U^6@9=m_@<fZ=Gl8X2
 R3
-R24
-R25
-R26
-!i122 1211
-L0 1 28
+S1
 R4
+R30
+R31
+R32
+!i122 1474
+L0 1 28
+R5
 r1
 !s85 0
 31
-R27
-R28
-R29
+R21
+R33
+R34
 !i113 1
-R5
-R6
+R7
+R8
 n@ld_@st_unit
 vload_store_Unit
 R0
-R23
+R17
 !i10b 1
 !s100 OO3KfzE=9@4>d<7MZ]Za@2
-R1
-ITlMzBn4:4LU0Z:^dHZnS^3
 R2
-S1
+ITlMzBn4:4LU0Z:^dHZnS^3
 R3
-R24
-R25
-R26
-!i122 1211
-L0 30 21
+S1
 R4
+R30
+R31
+R32
+!i122 1474
+L0 30 21
+R5
 r1
 !s85 0
 31
-R27
-R28
-R29
+R21
+R33
+R34
 !i113 1
-R5
-R6
+R7
+R8
 nload_store_@unit
 vmux
 R0
-R7
+R9
 !i10b 1
 !s100 Z>zD7=cIF0VIRj8WhRQ]n0
-R1
-IOAJ8VJToH4U3f>W?IgnEW0
 R2
-S1
+IOAJ8VJToH4U3f>W?IgnEW0
 R3
-R8
-R9
-R10
-!i122 1216
-L0 26 12
+S1
 R4
-r1
-!s85 0
-31
+R10
 R11
 R12
-R13
-!i113 1
+!i122 1479
+L0 26 12
 R5
-R6
-vmux_forA
-R0
-R15
-!i10b 1
-!s100 1Id>KmP>_Z9Ezo<CBLKWf3
-R1
-IHS7]hS@FKJT>iiX5GCMW;3
-R2
-S1
-R3
-R16
-R17
-R18
-!i122 1212
-L0 56 13
-R4
 r1
 !s85 0
 31
+R13
+R14
+R15
+!i113 1
+R7
+R8
+vmux_forA
+R0
+R17
+!i10b 1
+!s100 1Id>KmP>_Z9Ezo<CBLKWf3
+R2
+IHS7]hS@FKJT>iiX5GCMW;3
+R3
+S1
+R4
+R18
 R19
 R20
-R21
-!i113 1
+!i122 1475
+L0 56 13
 R5
-R6
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R7
+R8
 nmux_for@a
 vmux_forB
 R0
-R15
+R17
 !i10b 1
 !s100 <<J0Y[]4G^>XYY`n=D:Ld3
-R1
-I:zAahN9j<[V[G4[1DJCc>3
 R2
-S1
+I:zAahN9j<[V[G4[1DJCc>3
 R3
-R16
-R17
-R18
-!i122 1212
-L0 69 13
+S1
 R4
+R18
+R19
+R20
+!i122 1475
+L0 69 13
+R5
 r1
 !s85 0
 31
-R19
-R20
 R21
+R22
+R23
 !i113 1
-R5
-R6
+R7
+R8
 nmux_for@b
 vmux_I
 R0
-R15
+R17
 !i10b 1
 !s100 FanNDQaJ1fWa>CPej<TOm1
-R1
-IH^GiD]zFdK165Qbzf<YSV3
 R2
-S1
+IH^GiD]zFdK165Qbzf<YSV3
 R3
-R16
-R17
-R18
-!i122 1212
-L0 1 12
+S1
 R4
+R18
+R19
+R20
+!i122 1475
+L0 1 12
+R5
 r1
 !s85 0
 31
-R19
-R20
 R21
+R22
+R23
 !i113 1
-R5
-R6
+R7
+R8
 nmux_@i
 vmux_LS
 R0
-R15
+R17
 !i10b 1
 !s100 ga_IPRfChLg7UCChCbaRZ1
-R1
-I`8Zec9d0V]iIS=`_2Q71h1
 R2
-S1
+I`8Zec9d0V]iIS=`_2Q71h1
 R3
-R16
-R17
-R18
-!i122 1212
-L0 14 14
+S1
 R4
-r1
-!s85 0
-31
+R18
 R19
 R20
-R21
-!i113 1
+!i122 1475
+L0 14 14
 R5
-R6
-nmux_@l@s
-vregister_file
-R0
-!s110 1671788737
-!i10b 1
-!s100 ;=_z>YkT]nABogzZon8Xl2
-R1
-I69iL;?OMzc2=Xf;<YgJU?3
-R2
-S1
-R3
-w1671195007
-8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/register_file.sv
-F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/register_file.sv
-!i122 1213
-R22
-R4
 r1
 !s85 0
 31
-!s108 1671788736.000000
+R21
+R22
+R23
+!i113 1
+R7
+R8
+nmux_@l@s
+vmux_out
+R0
+R28
+!i10b 1
+!s100 4kQVJhHL50Em3f3l=3U[`3
+R2
+IQa0;?J[UY4c4DL7MQ8L8H3
+R3
+S1
+R4
+w1672827945
+8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux_out.sv
+F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux_out.sv
+!i122 1429
+R29
+R5
+r1
+!s85 0
+31
+Z35 !s108 1672896989.000000
+!s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux_out.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/mux_out.sv|
+!i113 1
+R7
+R8
+vregister_file
+R0
+Z36 !s110 1672901069
+!i10b 1
+!s100 AgAN?gmSB4bbLIac1aQDD2
+R2
+I:`Qm_P0>hKRT<^LWZjj:M3
+R3
+S1
+R4
+w1672900282
+8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/register_file.sv
+F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/register_file.sv
+!i122 1476
+R27
+R5
+r1
+!s85 0
+31
+R13
 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/register_file.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/register_file.sv|
 !i113 1
-R5
-R6
+R7
+R8
 vreset_Uart
 R0
 !s110 1671768687
 !i10b 1
 !s100 RJ6i6?dgJimb`>=n<m6mD2
-R1
-IbgM^S6XY5=LMbUdSDk;OE2
 R2
-S1
+IbgM^S6XY5=LMbUdSDk;OE2
 R3
+S1
+R4
 w1671768264
-R9
-R10
+R11
+R12
 !i122 741
 L0 168 9
-R4
+R5
 r1
 !s85 0
 31
 !s108 1671768686.000000
-R12
-R13
+R14
+R15
 !i113 1
-R5
-R6
+R7
+R8
 nreset_@uart
 vRISC_V
 R0
-!s110 1671788738
+R36
 !i10b 1
-!s100 H9z@BU0`R3`ocI7B<jd>21
-R1
-IC3nkmDbh@fBM`QGESmfi42
+!s100 6P`BBkcAB;@7;mhoBdRPB0
 R2
-S1
+I[:`m3Am<aZNL]KjXQ?JMN1
 R3
-w1671776836
+S1
+R4
+w1672901041
 8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V.sv
 F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V.sv
-!i122 1214
-L0 1 101
-R4
+!i122 1477
+L0 1 106
+R5
 r1
 !s85 0
 31
-!s108 1671788737.000000
+R13
 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V.sv|
 !i113 1
-R5
-R6
+R7
+R8
 n@r@i@s@c_@v
 vRISC_V_tb
 R0
-!s110 1671788740
+R36
 !i10b 1
-!s100 _>K[F3MS5T0YCnF8YRo;Q0
-R1
-I;>5SgSEzQoWY5o4GH1AD63
+!s100 l2fFo]=>_cHU5I0`lVSjT2
 R2
-S1
+IXNF]c:LFI`Ya=l3Nl6HfU2
 R3
-w1671788707
+S1
+R4
+w1671790303
 8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V_tb.sv
 F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V_tb.sv
-!i122 1215
+!i122 1478
 L0 1 30
-R4
+R5
 r1
 !s85 0
 31
-!s108 1671788739.000000
+R13
 !s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/RISC_V_tb.sv|
 !i113 1
-R5
-R6
+R7
+R8
 n@r@i@s@c_@v_tb
+vsegment_counter
+R0
+Z37 !s110 1672896990
+!i10b 1
+!s100 jZe:B[4Nnjfg`[6K5N>l=1
+R2
+IcMTP:TYfi0k>MmX0C0V:U3
+R3
+S1
+R4
+w1672823114
+8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/segment_counter.sv
+F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/segment_counter.sv
+!i122 1430
+L0 23 17
+R5
+r1
+!s85 0
+31
+R35
+!s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/segment_counter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/segment_counter.sv|
+!i113 1
+R7
+R8
+vseven_cathode
+R0
+R37
+!i10b 1
+!s100 ERG45BD^fGSnH3LjTH_1Q1
+R2
+IiCgcNX]Y;E7cWRKBO6f7n3
+R3
+S1
+R4
+w1672827524
+8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/seven_cathode.sv
+F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/seven_cathode.sv
+!i122 1431
+R27
+R5
+r1
+!s85 0
+31
+Z38 !s108 1672896990.000000
+!s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/seven_cathode.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/seven_cathode.sv|
+!i113 1
+R7
+R8
+vseven_seg
+R0
+Z39 !s110 1672896991
+!i10b 1
+!s100 32HXAbGMoA;zJ_;TBblP53
+R2
+IBIPEGjlF8[fUKL25D_k<L1
+R3
+S1
+R4
+w1672823503
+8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/seven_seg.sv
+F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/seven_seg.sv
+!i122 1432
+L0 23 21
+R5
+r1
+!s85 0
+31
+R38
+!s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/seven_seg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/seven_seg.sv|
+!i113 1
+R7
+R8
+vseven_seg_anode
+R0
+R39
+!i10b 1
+!s100 2E>Z98DkRX=FXTBW_DNL82
+R2
+I>lX84YZGhi8:R@UBm0Ua43
+R3
+S1
+R4
+w1672823134
+8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/seven_seg_anode.sv
+F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/seven_seg_anode.sv
+!i122 1433
+L0 23 18
+R5
+r1
+!s85 0
+31
+!s108 1672896991.000000
+!s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/seven_seg_anode.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/seven_seg_anode.sv|
+!i113 1
+R7
+R8
 vshift_reg
 R0
-R7
+R9
 !i10b 1
 !s100 =XbdC38;SG=7B15?3bX2b3
-R1
-I<mbb`iHek:mL]BI2XzkHn1
 R2
-S1
+I<mbb`iHek:mL]BI2XzkHn1
 R3
-R8
-R9
-R10
-!i122 1216
-L0 40 20
+S1
 R4
-r1
-!s85 0
-31
+R10
 R11
 R12
-R13
-!i113 1
+!i122 1479
+L0 40 20
 R5
-R6
-vST_Sizing
-R0
-R23
-!i10b 1
-!s100 2<E`oSREl>g5;lGdUWnIz3
-R1
-ID]We^lb^S2ho^Y31mSURz0
-R2
-S1
-R3
-R24
-R25
-R26
-!i122 1211
-L0 72 38
-R4
 r1
 !s85 0
 31
-R27
-R28
-R29
+R13
+R14
+R15
 !i113 1
+R7
+R8
+vssd
+R0
+R9
+!i10b 1
+!s100 [b@`=^oV=;HI>J60][?LS3
+R2
+I`2`fSQXBM52YNcDLleA8b2
+R3
+S1
+R4
+w1672899857
+8/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ssd.sv
+F/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ssd.sv
+!i122 1481
+L0 3 80
 R5
-R6
+r1
+!s85 0
+31
+R24
+!s107 /media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ssd.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/media/hassan/New Volume/Semester 7/CA Lab/Lab 10/ssd.sv|
+!i113 1
+R7
+R8
+vST_Sizing
+R0
+R17
+!i10b 1
+!s100 2<E`oSREl>g5;lGdUWnIz3
+R2
+ID]We^lb^S2ho^Y31mSURz0
+R3
+S1
+R4
+R30
+R31
+R32
+!i122 1474
+L0 72 38
+R5
+r1
+!s85 0
+31
+R21
+R33
+R34
+!i113 1
+R7
+R8
 n@s@t_@sizing
 vUART
 R0
-R7
+R9
 !i10b 1
 !s100 6XU8O@:S1gc;R[Z26TIFj1
-R1
-IzA<WoBEVXgcbKeIUK97bo1
 R2
-S1
+IzA<WoBEVXgcbKeIUK97bo1
 R3
-R8
-R9
-R10
-!i122 1216
-L0 1 24
+S1
 R4
+R10
+R11
+R12
+!i122 1479
+L0 1 24
+R5
 r1
 !s85 0
 31
-R11
-R12
 R13
+R14
+R15
 !i113 1
-R5
-R6
+R7
+R8
 n@u@a@r@t
